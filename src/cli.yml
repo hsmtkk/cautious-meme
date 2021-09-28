@@ -4,3 +4,7 @@ subcommands:
       args:
         - symbol:
             required: true
+  - intraday:
+      args:
+        - symbol:
+            required: true

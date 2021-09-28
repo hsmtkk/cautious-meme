@@ -2,11 +2,11 @@ use anyhow::Result;
 use crate::http::Getter;
 use std::collections::HashMap;
 
-#[derive(Debug)]
+#[derive(Debug, PartialEq)]
 pub struct Response {
-    symbol: String,
-    name: String,
-    eps: f64,
+    pub symbol: String,
+    pub name: String,
+    pub eps: f64,
 }
 
 impl Response {
