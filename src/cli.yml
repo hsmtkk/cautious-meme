@@ -1,3 +1,4 @@
+---
 name: alpha-vantage
 subcommands:
   - company-overview:
