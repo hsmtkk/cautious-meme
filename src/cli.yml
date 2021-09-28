@@ -1,0 +1,6 @@
+name: alpha-vantage
+subcommands:
+  - company-overview:
+      args:
+        - symbol:
+            required: true
